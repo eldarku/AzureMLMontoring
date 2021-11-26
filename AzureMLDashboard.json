@@ -61,9 +61,7 @@
                   "value": {
                     "resourceIds": [
                       "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
-                     
-
-                                          ]
+                                   ]
                   },
                   "isOptional": true
                 },
@@ -191,10 +189,7 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AMLWS/providers/Microsoft.MachineLearningServices/workspaces/AMLWS",
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AML_workshop/providers/Microsoft.MachineLearningServices/workspaces/AML_workshop",
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AzureMLWS/providers/Microsoft.MachineLearningServices/workspaces/AzureMLWS",
-                      "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a/resourceGroups/bing-mm-prd/providers/Microsoft.MachineLearningServices/workspaces/bing-mm-aml-prd"
+                        "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
                     ]
                   },
                   "isOptional": true
@@ -396,10 +391,7 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AMLWS/providers/Microsoft.MachineLearningServices/workspaces/AMLWS",
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AML_workshop/providers/Microsoft.MachineLearningServices/workspaces/AML_workshop",
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AzureMLWS/providers/Microsoft.MachineLearningServices/workspaces/AzureMLWS",
-                      "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a/resourceGroups/bing-mm-prd/providers/Microsoft.MachineLearningServices/workspaces/bing-mm-aml-prd"
+                   "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
                     ]
                   },
                   "isOptional": true
@@ -525,10 +517,8 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AMLWS/providers/Microsoft.MachineLearningServices/workspaces/AMLWS",
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AML_workshop/providers/Microsoft.MachineLearningServices/workspaces/AML_workshop",
-                      "/subscriptions/25d926c7-ff84-4020-bad1-33befa55b372/resourceGroups/AzureMLWS/providers/Microsoft.MachineLearningServices/workspaces/AzureMLWS",
-                      "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a/resourceGroups/bing-mm-prd/providers/Microsoft.MachineLearningServices/workspaces/bing-mm-aml-prd"
+                        "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
+
                     ]
                   },
                   "isOptional": true
@@ -622,7 +612,7 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/5b0bb277-8727-4b88-87f4-38b232fcd11f/resourcegroups/cs/providers/microsoft.operationalinsights/workspaces/ws1cg"
+                        "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
                     ]
                   },
                   "isOptional": true
@@ -721,7 +711,7 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a/resourceGroups/bing-wpr-prd/providers/Microsoft.MachineLearningServices/workspaces/bing-wpr-aml-prd"
+                        "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
                     ]
                   },
                   "isOptional": true
@@ -839,7 +829,7 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a/resourceGroups/bing-wpr-prd/providers/Microsoft.MachineLearningServices/workspaces/bing-wpr-aml-prd"
+                        "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
                     ]
                   },
                   "isOptional": true

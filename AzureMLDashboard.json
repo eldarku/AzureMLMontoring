@@ -286,7 +286,7 @@
               "inputs": [
                 {
                   "name": "scope",
-                  "value": "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a"
+                  "value": "[concat('/subscriptions/',subscription().subscriptionId]"
                 },
                 {
                   "name": "scopeName",
@@ -342,7 +342,7 @@
                         "name": "ResourceGroupName"
                       }
                     ],
-                    "scope": "subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a",
+                    "scope": "[concat('/subscriptions/',subscription().subscriptionId]",
                     "kpis": [
                       {
                         "type": "Budget",
@@ -367,7 +367,7 @@
                 }
               ],
               "type": "Extension/Microsoft_Azure_CostManagement/PartType/CostAnalysisPinPart",
-              "deepLink": "#blade/Microsoft_Azure_CostManagement/Menu/costanalysis/scope/%2Fsubscriptions%2F25d926c7-ff84-4020-bad1-33befa55b372/open/costanalysisv3.resources"
+              "deepLink": "[concat('#blade/Microsoft_Azure_CostManagement/Menu/costanalysis/scope/%2Fsubscriptions%2F',subscription().subscriptionId,'/open/costanalysisv3.resources')]"
             }
           },
           "3": {

@@ -953,14 +953,7 @@
         }
       }
     }
-  },
-  "name": "AzureML Dashboard",
-  "type": "Microsoft.Portal/dashboards",
-  "location": "INSERT LOCATION",
-  "tags": {
-    "hidden-title": "AzureML Dashboard"
-  },
-  "apiVersion": "2015-08-01-preview"
+  }
 		         
           }      
     ]

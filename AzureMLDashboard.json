@@ -286,7 +286,7 @@
               "inputs": [
                 {
                   "name": "scope",
-                  "value": "[concat('/subscriptions/',subscription().subscriptionId]"
+                  "value": "[concat('/subscriptions/',subscription().subscriptionId)]"
                 },
                 {
                   "name": "scopeName",
@@ -342,7 +342,7 @@
                         "name": "ResourceGroupName"
                       }
                     ],
-                    "scope": "[concat('/subscriptions/',subscription().subscriptionId]",
+                    "scope": "[concat('/subscriptions/',subscription().subscriptionId)]",
                     "kpis": [
                       {
                         "type": "Budget",

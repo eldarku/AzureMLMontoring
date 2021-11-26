@@ -60,8 +60,10 @@
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',resourceGroup().Name,'/providers/Microsoft.MachineLearningServices/workspaces/',variables('AMLWS_Name'))"
-                    ]
+                      "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('logAnalyticsWorkspaceResourceGroup'),'/providers/microsoft.operationalinsights/workspaces/',parameters('logAnalyticsWorkspaceName'))]"
+                     
+
+                                          ]
                   },
                   "isOptional": true
                 },

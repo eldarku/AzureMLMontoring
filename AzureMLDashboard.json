@@ -4,7 +4,7 @@
     "parameters": { 
         "dashboardName": {
             "type": "string",
-            "defaultValue":  "Application Gateway",
+            "defaultValue":  "Azure ML WS Monitoring",
             "metadata": {
                 "description": "Display Name of the Dashboard"
             }
